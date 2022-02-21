@@ -9,4 +9,4 @@ db.sqlite3-journal
 venv
 /static
 settings.py
-/btre/settings.py
+./btre/settings.py
