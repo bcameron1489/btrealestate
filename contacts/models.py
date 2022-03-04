@@ -1,9 +1,9 @@
 from django.db import models
 from datetime import datetime
 
-class Contact(models.model):
+class Contact(models.Model):
     listing = models.CharField(max_length=200)
-    listing_id = models.models.IntegerField()
+    listing_id = models.IntegerField()
     name = models.CharField(max_length=200)
     emial = models.CharField(max_length=100)
     phone = models.CharField(max_length=100)
